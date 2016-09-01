@@ -23,6 +23,7 @@ public class About_Activity extends Activity {
 		Toast.makeText(this, string+"as", Toast.LENGTH_SHORT).show();
 		et.setText(string);
 		//没有网络，怎么检测有没有网络
+		//aaa
 		webview.loadUrl(string);
 	}
 }
