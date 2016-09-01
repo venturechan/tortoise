@@ -26,7 +26,7 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
+		//我新添加的代码2016-09-01-MainActivity
 		ed = (EditText) findViewById(R.id.et);
 		webview = (WebView) findViewById(R.id.wv);
 		pb = (ProgressBar) findViewById(R.id.pb);
